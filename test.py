@@ -6,5 +6,5 @@ for num in range(start, end +1):
             if (num%i) == 0:
                 break
         else:
-            print(num)
+            print("The prime number is: ",num)
 
