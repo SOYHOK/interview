@@ -1,0 +1,11 @@
+# program to check weather
+num = int(input("Enter number: "))
+while num!=0:
+    w = num % 10
+    if(w!=0 and w!=1):
+        print("Not binary number!")
+    break
+num = num // 10
+if (num==0):
+    print("True")
+
