@@ -1,4 +1,5 @@
-num = 123456
+#num = 123456
+num = int(input("Enter inter number: "))
 test_num = 0
 while (num>0):
     remainder = num % 10
